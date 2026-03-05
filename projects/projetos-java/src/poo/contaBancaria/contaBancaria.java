@@ -11,7 +11,7 @@ public class contaBancaria {
         Titular t1 = new Titular();
         t1.nomeTitular = sc.nextLine();
 
-        int escolha = 0;
+        int escolha ;
         acoesBancarias acao = new acoesBancarias();
 
         do{
@@ -32,7 +32,7 @@ public class contaBancaria {
 
                 case 3: acao.verSaldo();
                 break;
-                
+
             }
 
         }while(escolha != 4);
